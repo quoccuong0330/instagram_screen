@@ -3,7 +3,7 @@ import 'package:instagram/domain/models/story.dart';
 
 class HomeStory extends StatelessWidget {
   const HomeStory({super.key, required this.stories});
-  final List<Story> stories;
+  final List stories;
 
   Widget servicesListView() {
     return ListView.separated(
